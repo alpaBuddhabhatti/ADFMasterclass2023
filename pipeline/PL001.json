@@ -64,7 +64,13 @@
 		],
 		"parameters": {
 			"test": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "test"
+			}
+		},
+		"variables": {
+			"var1": {
+				"type": "String"
 			}
 		},
 		"annotations": [],
