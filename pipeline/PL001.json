@@ -1,6 +1,7 @@
 {
 	"name": "PL001",
 	"properties": {
+		"description": "This is test",
 		"activities": [
 			{
 				"name": "Copy data",
