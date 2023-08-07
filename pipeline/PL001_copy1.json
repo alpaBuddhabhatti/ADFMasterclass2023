@@ -51,13 +51,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "DS_ABLB_IN",
+						"referenceName": "DS_ABLB_IN_copy1",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "DS_ABLB_OUT",
+						"referenceName": "DS_ABLB_OUT_copy1",
 						"type": "DatasetReference"
 					}
 				]
