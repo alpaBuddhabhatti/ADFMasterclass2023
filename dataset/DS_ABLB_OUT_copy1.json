@@ -1,5 +1,5 @@
 {
-	"name": "DS_ABLB_OUT",
+	"name": "DS_ABLB_OUT_copy1",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "LS_ABLB",
@@ -10,10 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": {
-					"value": "abc.csv",
-					"type": "Expression"
-				},
+				"fileName": "test.csv",
 				"container": "output"
 			},
 			"columnDelimiter": ",",
