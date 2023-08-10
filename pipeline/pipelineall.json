@@ -50,7 +50,13 @@
 				"inputs": [
 					{
 						"referenceName": "DS_ABLB_all",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"BOName": {
+								"value": "@pipeline().parameters.BOName",
+								"type": "Expression"
+							}
+						}
 					}
 				],
 				"outputs": [
