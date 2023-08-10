@@ -15,8 +15,10 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": "bo1.csv",
-				"container": "bo1"
+				"container": {
+					"value": "@dataset().BOName",
+					"type": "Expression"
+				}
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
