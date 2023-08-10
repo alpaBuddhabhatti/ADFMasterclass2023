@@ -61,6 +61,12 @@
 				]
 			}
 		],
+		"parameters": {
+			"BOName": {
+				"type": "string",
+				"defaultValue": "bo1"
+			}
+		},
 		"annotations": []
 	}
 }
