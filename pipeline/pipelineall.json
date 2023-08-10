@@ -62,7 +62,13 @@
 				"outputs": [
 					{
 						"referenceName": "DS_ABLB_all_out",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"BOname": {
+								"value": "@pipeline().parameters.BOName",
+								"type": "Expression"
+							}
+						}
 					}
 				]
 			}
