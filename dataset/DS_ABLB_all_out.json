@@ -1,0 +1,22 @@
+{
+	"name": "DS_ABLB_all_out",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_ABLB",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "bo1-out"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": false,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
